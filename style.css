@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================= 1. تنسيق box1 ================= */
+.box1 {
+  background-color: #1a446c;
+  width: 80%;
+  padding: 30px;
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 15px;
+  color: white;
+}
+
+.box1 h1 {
+  margin-bottom: 10px;
+}
+
+.box1 p {
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes1 a {
+  background-color: #2b5780;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-right: 10px; /* بديل gap */
+}
+
+.boxes1 a:last-child {
+  margin-right: 0;
+}
+
+/* ================= 2. تنسيق box2 (البيضاء) ================= */
+.box2 {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.box2 h2 {
+  color: #1a446c;
+  margin-bottom: 15px;
+}
+
+.box2 .line {
+  border: none;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin-bottom: 25px;
+}
+
+.box2-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px; /* مسافة بين الصورة والنصوص كبديل للـ gap */
+}
+
+.box2-text p {
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.about-text strong {
+  color: #1a446c;
+}
+
+.btn-github {
+  display: inline-block;
+  background-color: #0366d6;
+  color: white;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* ================= 3. تنسيق box3 (المهارات) ================= */
+.box3 {
+  background-color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.box3 h2 {
+  color: #1a446c;
+  margin-bottom: 10px;
+}
+
+.box3 hr {
+  border: none;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin-bottom: 20px;
+}
+
+.box3-subtitle {
+  color: #4a5568;
+  margin-bottom: 25px;
+}
+
+/* الديف المجمّع للكروت الأربعة */
+.box3-container {
+  display: flex;
+}
+
+/* الكرت الواحد */
+.box3-card {
+  flex: 1;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-right: 20px; /* بديل gap */
+}
+
+.box3-card:last-child {
+  margin-right: 0;
+}
+
+.box3-card h3 {
+  color: #1a446c;
+  margin-bottom: 10px;
+}
+
+.box3-text {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ================= 4. تنسيق box4 (الخبرات) ================= */
+.box4 {
+  background-color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.box4 h2 {
+  color: #1a446c;
+  margin-bottom: 10px;
+}
+
+.box4 hr {
+  border: none;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin-bottom: 25px;
+}
+
+.box4-item {
+  display: flex;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #1a446c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box4-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px; /* مسافة بين الأيقونة والنصوص كبديل للـ gap */
+}
+
+.box4-text h3 {
+  color: #1e293b;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.box4-text .company {
+  color: #2563eb;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.box4-text .date {
+  color: #94a3b8;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box4-text p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ================= 5. تنسيق box5 (التواصل) ================= */
+.box5 {
+  background-color: #1a446c;
+  color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.box5 h2 {
+  margin-bottom: 10px;
+}
+
+.box5 hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.box5-text {
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.box5-links {
+  display: flex;
+}
+
+.box5-links a {
+  background-color: #2b5780;
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-right: 12px; /* بديل gap */
+}
+
+.box5-links a:last-child {
+  margin-right: 0;
+}
+
+/* ================= 6. تنسيق box6 (الفوتر) ================= */
+.box6 {
+  background-color: #0f2338;
+  width: 80%;
+  margin: 20px auto 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.box6-text {
+  color: #94a3b8;
+  font-size: 14px;
+}
